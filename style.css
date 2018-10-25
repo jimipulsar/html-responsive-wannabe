@@ -1,0 +1,203 @@
+.row {
+  width: 90%;
+  padding: 37px 45px 65px;
+}
+.row h1 {
+  padding: 43px;
+  margin:auto;
+}
+
+.container img{
+  height: 200px;
+}
+@media screen and (max-width: 1050px) {
+.row {
+    width: 80%;
+    margin: auto;
+    padding: 37px 45px 65px;
+}
+}
+@media screen and (max-width: 511px) {
+
+.container .row img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: center;
+  margin: auto;
+  height: 119px;
+  }
+}
+
+
+.container  {
+  text-align: center;
+  position:relative;
+  background: #e5e5e5;
+}
+
+@media screen and (max-width: 980px) {
+  .row {
+    width: 86%;
+    margin: auto;
+  }
+  span {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
+@media screen and (min-width: 702px max-width: 800px) {
+  #why-us .row img {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .row {
+  background: #90eaee;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  }
+
+  h1 {
+    font-size: 50px
+    font-weight: normal;
+    font-variant: small-caps;
+    padding:30px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  img {
+    height: 100px;
+  }
+}
+
+/* Sezione Responsive Tablet 711px*/
+@media screen and (min-width: 711px){
+  .container .row > .left, .container .row > .right{
+    width: 50%;
+    float: left;
+  }
+}
+
+
+/* BLOCCO FUNZIONALITA */
+@media screen and (min-width: 701px) {
+  #works .row > .left,
+  #works .row > .middle,
+  #works .row > .right{
+    float: left;
+    width: 33%;
+  }
+}
+
+#works{
+  text-align: center;
+}
+
+/* BLOCCO WHY-US */
+#why-us {
+  text-align: center;
+}
+@media screen and (min-width: 701px) {
+  #why-us > .row {
+    height: 500px;
+    margin: auto;
+    width: 91%;
+  }
+
+  #why-us > .row hr {
+    width: 0;
+  }
+
+  #why-us .row > .first,
+  #why-us .row > .second,
+  #why-us .row > .third {
+    float: left;
+    width: calc(100% / 3);
+  }
+}
+#why-us .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  height: 142px;
+  margin: auto;
+  display: block;
+  padding: 0px;
+}
+
+/* BLOCCO STEPS Responsive*/
+@media screen and (min-width: 701px) {
+  #works .row > .left,
+  #works .row > .middle,
+  #works .row > .right{
+    float: left;
+    width: 33%;
+  }
+}
+
+#works{
+  text-align: center;
+  background:#fff;
+}
+
+/* SECOND BLOCK WHY-US */
+#why-us {
+  text-align: center;
+  background: #e5e5e5;
+}
+@media screen and (min-width: 701px) {
+  #why-us > .row-second {
+    height: 500px;
+  }
+
+  #why-us > .row-second hr {
+    width: 0;
+  }
+
+  #why-us .row-second > .first,
+  #why-us .row-second > .second,
+  #why-us .row-second > .third {
+    float: left;
+    width: calc(100% / 3);
+    /* margin-top: 80px; */
+  }
+}
+#why-us .row-second img {
+  background-color:#428bca;
+  border-radius:50%;
+  height: 115px;
+}
+
+@media screen and (max-width: 400px) {
+#why-us .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    height: 161px;
+    margin: auto;
+    display: block;
+    padding: 0px;
+  }
+}
+/* COMMON */
+
+[background="grey"]{
+  background-color: #f9f9f9;
+}
+
+.clear {
+  clear:both;
+}
